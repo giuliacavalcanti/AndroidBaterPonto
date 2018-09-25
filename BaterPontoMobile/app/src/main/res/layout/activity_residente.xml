@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityResidente">
+
+    <TextView
+        android:id="@+id/labelMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matricula"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/labelNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="152dp" />
+
+    <TextView
+        android:id="@+id/labelEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/labelSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saida"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <Button
+        android:id="@+id/btnEntrada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrada"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Button
+        android:id="@+id/btnSaida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saida"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="367dp" />
+</android.support.constraint.ConstraintLayout>

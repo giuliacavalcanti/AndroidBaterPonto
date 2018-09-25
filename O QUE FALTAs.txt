@@ -1,0 +1,9 @@
+1 - Usat public Object postHttpResponse para passar parametros MATRICULA E SENHA	
+	Formatar para json botando add.
+	Pegar a resposta do Back-end
+2 - Se a resposta for verdadeira: passar para activity residente
+	Ativar o bater ponto
+	salvar back
+	
+3 - Ativar o botão de saida
+	salvar back
